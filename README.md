@@ -1,7 +1,10 @@
 # Linear Recurrences
 
 A library for the generation of linear recurrence sequences based on the
-results of [Miller and Brown [1986]][1] and [Fiduccia [1985]][2].
+results of [Miller and Brown [1986]][1] and [Fiduccia [1985]][2]. The goal
+is to find the `n`th term of a sequence in the fewest number of steps possible.
+
+A popular linear recurrence is the Fibonacci sequence: `0 1 1 2 3 5 8...`.
 
 The library uses modular polynomial multiplication and `power` algorithms.
 Using these algorithms, the *n*th term of linear sequence of order *k* requires
